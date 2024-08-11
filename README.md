@@ -1,1 +1,3 @@
 # Movie-recommendation-system
+
+This project is a **Content-Based Movie Recommender System** built using the TMDB (The Movie Database) dataset. It suggests movies based on their similarity to a selected movie, calculated using **Cosine Similarity** on movie overviews. The system preprocesses the data by vectorizing movie descriptions using TF-IDF (Term Frequency-Inverse Document Frequency) and then measures the similarity between them. Users can interact with the recommender through a simple interface, either in a Jupyter Notebook or a deployed Streamlit app. The project is designed to help users discover movies similar to those they already enjoy.
